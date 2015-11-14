@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in middleman-fontcustom.gemspec
-gemspec
+gem "middleman-core", ">=3.4.0"
+gem "fontcustom", :github => 'zwaldowski/fontcustom'
