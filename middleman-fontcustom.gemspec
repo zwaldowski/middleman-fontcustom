@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = ">= 1.9.3"
 
-  s.add_runtime_dependency "middleman-core", ">= 3.4.0"
+  s.add_dependency("middleman-core", [">= 4.0.0"])
   # s.add_runtime_dependency "fontcustom", "~> 1.3"
 
   s.add_development_dependency "rake"
